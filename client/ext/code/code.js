@@ -51,6 +51,7 @@ var SupportedModes = {
     "text/x-script.python": "python",
     "text/x-script.ruby": "ruby",
     "text/x-script.perl": "perl",
+    "text/x-script.perl-module": "perl",
     "text/x-c": "c_cpp",
     "text/x-java-source": "java",
     "text/x-csharp": "csharp",
@@ -89,6 +90,9 @@ var contentTypes = {
     "rake": "text/x-script.ruby",
     "rb": "text/x-script.ruby",
     
+    "pl": "text/x-script.perl",
+    "pm": "text/x-script.perl-module",
+
     "c": "text/x-c",
     "cc": "text/x-c",
     "cpp": "text/x-c",
